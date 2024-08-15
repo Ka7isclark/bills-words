@@ -35,7 +35,7 @@ function App() {
   const CheckSubmission = (submission: string) => {
     if (submission !== "") {
       let newWords: string[] = wordList;
-      newWords.push(submission);
+      newWords.push(submission.toLowerCase());
       setShowFavourite(false);
       setWordList(newWords);
       setUserInput("");
