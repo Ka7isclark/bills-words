@@ -117,9 +117,8 @@ function App() {
 
   return (
     <div className="App">
-      <InputBox GetInput={UpdateUserInput} textInput={userInput} />
+      <InputBox GetInput={UpdateUserInput} GetSubmission={() => CheckSubmission(userInput)} textInput={userInput} />
 
-      <button className="SubmitButton" onClick={() => CheckSubmission(userInput)}>Submit</button>
       <VowelsList words={wordList} nonsensicals={nonSensicalWords} />
 
       {wordList.length > 0 ? (

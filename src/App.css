@@ -28,25 +28,6 @@
   color: #61dafb;
 }
 
-@keyframes SubmitButton-button-color {
-  from {background-color: red;}
-  to {background-color: yellow;}
-}
-
-.SubmitButton{
-  padding-left: 8vh;
-    padding-right: 8vh;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
-    margin-top: 5vh;
-    border-radius: 2vh;
-    background-color: aliceblue;
-    color: red;
-    animation-name: SubmitButton-button-color;
-  animation-duration: 4s;
-  
-}
-
 .ControlButtons{
   display: flex;
   justify-content: center;
@@ -61,9 +42,6 @@
     margin-top: 5vh;
     border-radius: 2vh;
     background-color: aliceblue;
-    color: red;
-    animation-name: SubmitButton-button-color;
-    animation-duration: 4s;
 }
 .FindButton{
   padding-left: 8vh;
@@ -74,7 +52,4 @@
     margin-top: 5vh;
     border-radius: 2vh;
     background-color: aliceblue;
-    color: red;
-    animation-name: SubmitButton-button-color;
-    animation-duration: 4s;
 }
