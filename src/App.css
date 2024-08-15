@@ -1,0 +1,80 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes SubmitButton-button-color {
+  from {background-color: red;}
+  to {background-color: yellow;}
+}
+
+.SubmitButton{
+  padding-left: 8vh;
+    padding-right: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 5vh;
+    border-radius: 2vh;
+    background-color: aliceblue;
+    color: red;
+    animation-name: SubmitButton-button-color;
+  animation-duration: 4s;
+  
+}
+
+.ControlButtons{
+  display: flex;
+  justify-content: center;
+}
+
+.ClearButton{
+  padding-left: 8vh;
+    margin-right: 5vh;
+    padding-right: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 5vh;
+    border-radius: 2vh;
+    background-color: aliceblue;
+    color: red;
+    animation-name: SubmitButton-button-color;
+    animation-duration: 4s;
+}
+.FindButton{
+  padding-left: 8vh;
+    margin-right: 5vh;
+    padding-right: 8vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin-top: 5vh;
+    border-radius: 2vh;
+    background-color: aliceblue;
+    color: red;
+    animation-name: SubmitButton-button-color;
+    animation-duration: 4s;
+}
