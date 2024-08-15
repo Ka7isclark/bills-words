@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/bills-words/static/css/main.51ddde93.css",
-    "main.js": "/bills-words/static/js/main.068e5e17.js",
+    "main.js": "/bills-words/static/js/main.e894b1e2.js",
     "index.html": "/bills-words/index.html",
     "main.51ddde93.css.map": "/bills-words/static/css/main.51ddde93.css.map",
-    "main.068e5e17.js.map": "/bills-words/static/js/main.068e5e17.js.map"
+    "main.e894b1e2.js.map": "/bills-words/static/js/main.e894b1e2.js.map"
   },
   "entrypoints": [
     "static/css/main.51ddde93.css",
-    "static/js/main.068e5e17.js"
+    "static/js/main.e894b1e2.js"
   ]
 }
