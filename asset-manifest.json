@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/bills-words/static/css/main.af5899fa.css",
+    "main.js": "/bills-words/static/js/main.43fddf4e.js",
+    "index.html": "/bills-words/index.html",
+    "main.af5899fa.css.map": "/bills-words/static/css/main.af5899fa.css.map",
+    "main.43fddf4e.js.map": "/bills-words/static/js/main.43fddf4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.af5899fa.css",
+    "static/js/main.43fddf4e.js"
+  ]
+}
